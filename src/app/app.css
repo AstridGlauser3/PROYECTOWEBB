@@ -1,0 +1,649 @@
+body {
+    background-color: #f0ac03;
+   
+      font-size: 15.9436px;
+    
+      line-height: 23.9323px;
+      color: #212529;
+      text-align: left;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  
+  }
+  .primer{
+    font-family: "PedigreeUnleashedRegister","Intro W05",Arial,sans-serif;
+  
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      color:#1e1e1e;
+      margin-left: -25px;
+      font-size: 18.5px;
+      display: block;
+      line-height: 21.7567px;
+      width: 525px;
+  
+  }
+  
+  @font-face {
+      font-family: 'Pedigree Unleashed';
+      src: url('../asets/PEDIGREEUnleashedBlk.woff') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: "PedigreeUnleashedRegister";
+      src: url("../asets/PEDIGREEUnleashedLt.woff") format("woff");
+      font-style: normal;
+    
+   
+  }
+  
+    
+    .hero-container h2 {
+      font-family: "Pedigree Unleashed", Arial;
+      font-size: 68.3px;
+      line-height: 71.715px;
+      text-align: left;
+      letter-spacing: normal;
+      color: #ffffff;
+      width: 516px;
+    height: 358px;
+   margin-left: -25px;
+      padding: 27px;
+      font-weight: 900;
+      margin-top: -180px;
+  
+      z-index: 1;
+  
+    }
+  
+    .hero-dog-image {
+      position: absolute;
+      margin-top: -5px;
+        
+      right: 15px;
+      height: auto;
+      width: 55vw;
+      z-index: 1;
+    }
+    
+  
+  
+  h2 {
+      display: block;
+      margin: 0;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  
+  }
+  
+  .hero-section {
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    background-image: url("../asets/hero-bg.jpg");
+    background-size: 1361px 609px;
+  }
+  
+  .hero-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding-left: 50px;
+  }
+  .hero-image {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    height: 60%;
+    margin:0;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: 0;
+  }
+  
+  
+  
+  
+  
+  .hero-left-image {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    height: 130px;
+    width: 220px;
+    z-index: 1;
+  }
+  .recuadro-texto {
+    width: 516px;
+    height: 71px;
+    padding: 20px;
+    margin-top: -225px;
+    margin-left: 57px;
+    margin-bottom: 15px;
+    position:relative;
+    z-index: 1;
+  
+  }
+  
+  
+  
+  
+  .list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 35px;
+    margin-right: 50px; /* Agrega un margen a todos los lados de la lista */
+  }
+  
+  .navCon {
+    background: #fefbf2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0
+  }
+  
+  .navCon .right {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-flow: column-reverse wrap;
+    -moz-box-orient: vertical;
+    -moz-box-direction: reverse;
+    -ms-flex-flow: column-reverse wrap;
+    flex-flow: column-reverse wrap
+  }
+  
+  .list-inline {
+    padding-left: 0;
+    list-style: none
+  }
+  
+  .list-inline-item {
+    display: inline-block
+    
+    
+  }
+  
+  .list-inline-item:not(:last-child) {
+    margin-right: .5rem
+  
+  }
+  
+  
+  ol, ul, dl {
+    margin: 0;
+    color: #000000
+  }
+  
+  ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+    text-align: right;
+    color: #000000 !important; /* agregamos !important para asegurarnos de que esta regla tenga prioridad */
+    font-family: "PedigreeUnleashedRegister", "Intro W05", Arial, sans-serif;
+    font-size: 14.026px;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+  }
+  
+  .dropdown-item a::after {
+    content: "";
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000; /* Cambia a cualquier color que desees */
+    display: inline-block;
+    margin-left: 5px;
+    vertical-align: middle;
+    transform: rotate(180deg); /* Esto rotará el triángulo para que apunte hacia abajo */
+  }
+  
+  
+  ul .large-font {
+    font-size: 15px; /* Cambia esto al tamaño que desees */
+  }
+  
+  .large-font a:link {
+    color: black; /* Cambia el color del texto de los enlaces no visitados a negro */
+  }
+  
+  .large-font a:visited {
+    color: black; /* Cambia el color del texto de los enlaces visitados a negro */
+  }
+  
+  .seccion-blanca {
+    background-color: #fefbf2;
+    height: 768px;
+    width: 100%;
+    padding-top: 145px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  
+  img {
+    vertical-align: middle;
+    border-style: none
+  }
+  
+  
+  .reveal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 2.5s all ease;
+  
+  
+  }
+  
+  
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  .imagen-personalizada {
+    width: 250px;
+    height: 250px;
+    max-width: 250px;
+  
+  }
+  
+  
+  
+  .imagenes-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:60px;
+    width: 100%;
+  
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    height:auto;
+    width: 100vw;
+
+  
+  
+  }
+  
+  h3 {
+    text-align: center;
+    font-family: "Pedigree Unleashed", Arial;
+    font-size: 45.761px;
+  
+  }
+  
+  
+  
+  .hero-container h3 {
+   margin-top: 50px;
+  
+  }
+  .textbox{
+    font-family: "PedigreeUnleashedRegister", Arial;
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 900;
+    overflow-wrap: break-word;
+    max-width: 30vw;
+    line-height: 1.05;
+  }
+  
+  
+  
+  .gama-btn {
+    background-color: #fbebc2;
+    color: #000;
+    border: none;
+  
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 55px;
+    width: 155.062px;
+    transition: all 0.3s ease;
+    font-family: "PedigreeUnleashedRegister","Intro W05",Arial,sans-serif;
+  }
+  
+  .gama-btn:hover {
+    background-color: #e40f24;
+    color: #fefbf2;
+  }
+  
+  .underlin{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 17px;
+    font-family: "PedigreeUnleashedRegister","Intro W05",Arial,sans-serif;
+    color:#000;
+    font-weight: 900;
+    text-align: center;
+  }
+  
+  .amarilla{
+    width: 1361px;
+    height: 401px;
+    background-color: #f0ac03;
+    z-index: 0;
+  }
+  
+  .textoseg{
+    font-family: "Pedigree Unleashed", Arial;
+    font-size: 68.3px;
+    line-height: 71.715px;
+    text-align: left;
+    letter-spacing: normal;
+    color: #ffffff;
+    width: 516px;
+  height: 358px;
+  display: block;
+  font-weight: 900;
+  
+  }
+  
+  
+  .textoseg h2 {
+    font-family: "Pedigree Unleashed", Arial;
+    font-size: 60.0px;
+    line-height: 63.0px;
+    text-align: left;
+    letter-spacing: normal;
+    color: #ffffff;
+    width: 640.5px;
+    position:relative;
+    z-index: 1;
+  
+  
+  
+   
+  }
+  
+  .boxs{
+    height: 190px;
+    width: 640.5px;
+    margin-left: 35px;
+    margin-top: 80px;
+    
+  }
+  
+  .reveal-slow {
+    transition-delay: 0.5s ; /* cambia esto al tiempo de retraso que deseas */
+  }
+  
+  .imagen-per{
+    width: 409.078px;
+    height: 381.031px;
+    max-width: 570px;
+    margin-left: 800px;
+    margin-top: -170px;
+  }
+  
+  .contenedor{
+    position: relative; /* establece el posicionamiento relativo para poder usar z-index */
+    z-index: 0;
+  }
+  
+  .seccion-perro {
+    
+  
+    height: 567px;
+    width: 1361px;
+    position: relative;
+  z-index: 1;
+   overflow: hidden;
+  
+  
+  
+  
+  }
+  
+  
+  
+  /* Agrega la clase "zoom" para aplicar la animación de zoom */
+  
+  .zoom {
+    transition: 2.5s transform ease;
+  }
+  
+  .zoom.active {
+    animation: zoom-out 1.5s ease forwards;
+  }
+  
+  @keyframes zoom-out {
+    0% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  
+  .imagenPerro {
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+  
+  }
+  
+  
+  
+  .seccionroja{
+    height: 404.96px;
+    width: 1361px;
+    background-color: #e40f24;
+    position: absolute;
+   
+  }
+  
+  
+  .textoseg h3 {
+    font-family: "Pedigree Unleashed", Arial;
+    font-size: 57.0125px;
+    position: relative;
+    z-index: 1;
+    width: 441px;
+    height: 110px;
+    text-align: left;
+    line-height: 55px;
+  margin-left: 40px;
+  color: #1e1e1e;
+  margin-top: 80px;
+    
+  
+  
+  
+   
+  }
+  
+  
+  .hero-image2 {
+    position: absolute;
+  
+    height: 100%;
+    max-width: 100%;
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  
+  }
+  
+    .nuevo {
+      position: relative;
+       z-index: 1;
+       font-size: 17.5px;
+       width: 493.71px;
+       margin-top: -250px;
+       margin-left: 40px;
+       font-family: "PedigreeUnleashedRegister","Intro W05",Arial,sans-serif;
+    }
+  
+    .estilob{
+      background-color: #e40f24;
+      color: #fff;
+      border: none;
+    
+      padding: 15px 34px 15px 34px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 15px;
+      font-weight: 600;
+      margin-left: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 50px;
+      height: 55px;
+      width: 190.062px;
+      transition: all 0.3s ease;
+      font-family: "PedigreeUnleashedRegister","Intro W05",Arial,sans-serif;
+    }
+  
+    .estilob:hover {
+      transform: scale(1.1);
+    }
+    .logo {
+      display: block; /* convertimos la imagen en un elemento de bloque para poder aplicar el margen auto */
+      margin: 0 auto; /* establecemos los márgenes superior e inferior en 0 y el margen izquierdo y derecho en auto */
+     
+    }
+    
+    .contenedor-logo{
+    
+  
+      margin-top: 60px;
+      position: absolute;
+  
+      left: 0;
+    right: 0;
+  
+    }
+  
+  
+    .compraonline h2{
+      font-size: 45.716px;
+      line-height: 48.0491px;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: 175px;
+      font-family: "Pedigree Unleashed", Arial;
+      font-size: 45.76px;
+      color: #fff;
+    }
+  
+    .encuentra{
+      font-family: "PedigreeUnleashedRegister","Intro W05",Arial,sans-serif;
+      font-size: 17.94px;
+      width: 1361px;
+      height: 23.32px;
+      text-align: center;
+      color:#fff;
+      font-weight: 900;
+      margin-top: 193px;
+    position: absolute;
+    }
+  
+    .botonblanco{
+      position:absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 342.92px;
+      height: 55px;
+      background-color: #ffffff;
+      color: #000;
+      border-radius: 50px;
+      padding: 15px 34px 15px 34px;
+      font-weight: 900;
+      font-family: "PedigreeUnleashedRegister","Intro W05",Arial,sans-serif;
+      font-size: 13.94px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border:none;
+      margin-top: 263px;
+    }
+  
+    /* Para pantallas más pequeñas que 768px */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+    .hero-container h2 {
+      font-size: 40px;
+      width: 100%;
+      margin-left: 0;
+      text-align: center;
+    }
+    .hero-dog-image {
+      display: none;
+    }
+    .recuadro-texto {
+      width: 100%;
+      margin: 0;
+      padding: 10px;
+    }
+  }
+  
+  /* Para pantallas más pequeñas que 576px */
+    .ultimaseccion{
+      background-color: #f0ac03;
+      height: 486px;
+      width: 1361px;
+      padding-top: 145px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
